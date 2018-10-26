@@ -40,8 +40,6 @@
 	 :body (ring_util_request/body-string req)}
 )
 
-;; Here we define server handlers
-
 (defroutes server
 	(GET "/" [] "Hello World!")
 	(POST "/" [] onPost)
